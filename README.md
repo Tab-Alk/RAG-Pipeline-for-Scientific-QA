@@ -25,7 +25,7 @@ The idea for this project stems from my background at the intersection of neuros
 - **Conversational Retrieval Chain**  
   The entire flow was orchestrated through a conversational retrieval chain, enabling multi-turn interactions and maintaining chat history to support context-aware Q&A.
 
----
+
 ## Pipeline Architecture
 
 <p align="center">

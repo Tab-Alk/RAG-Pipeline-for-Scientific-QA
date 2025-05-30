@@ -12,6 +12,11 @@ The idea for this project stems from my background at the intersection of neuros
 
 - **Document Preparation**  
   The system was tested on a neuroscience-inspired AI research paper focused on the parallels between biological neural networks and transformer models. The PDF was parsed and split into smaller document chunks (pages) for processing.
+  paper_files = {
+  "Attention Is All You Need": "attention_is_all_you_need.pdf",
+  "BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials": "bioinspiredllm_mechanics.pdf",
+  "Spiking Neural Networks: A Survey": "spiking_neural_networks_survey.pdf"
+}
 
 - **Embedding Generation**  
   Each document chunk was embedded into vector space using a pre-trained sentence embedding model (`sentence-transformers/all-MiniLM-L6-v2`), producing dense semantic representations suitable for retrieval.
@@ -45,4 +50,4 @@ The idea for this project stems from my background at the intersection of neuros
 
 ## Key Insights & Conclusion
 
-This project highlights the potential of RAG pipelines as a tool for making complex academic material more accessible through conversational AI. By combining embeddings, vector search, and language models, the system enables users to engage with dense texts in a more natural and transparent way. The modular design supports easy extension to other documents and domains, offering a foundation for future applications in research assistance, education, and private knowledge management. Building this pipeline also deepened my understanding of retrieval-augmented systems and their role in bridging search and reasoning—a direction I am eager to continue exploring.
+This project highlights the potential of RAG pipelines as a tool for making complex academic material more accessible through conversational AI. By combining embeddings, vector search, and language models, the system enables users to engage with dense texts in a more natural and transparent way. The modular design supports easy extension to other documents and domains, offering a foundation for future applications in research assistance, education, and private knowledge management. Building this pipeline also deepened my understanding of retrieval-augmented systems and their role in bridging search and reasoning.

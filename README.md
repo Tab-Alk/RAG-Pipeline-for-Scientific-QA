@@ -26,6 +26,13 @@ The idea for this project stems from my background at the intersection of neuros
   The entire flow was orchestrated through a conversational retrieval chain, enabling multi-turn interactions and maintaining chat history to support context-aware Q&A.
 
 ---
+## Pipeline Architecture
+
+<p align="center">
+  <img width="1100" alt="Screenshot 2025-05-30 at 1 09 01 PM" src="https://github.com/user-attachments/assets/625cf34d-4af7-4b2c-bf69-2968db1bab45" />
+</p>
+
+<p align="center"><em>The high-level architecture of the RAG pipeline implemented in this project.</em></p>
 
 ## Example Q&A
 

@@ -12,7 +12,7 @@ The idea for this project stems from my background at the intersection of neuros
 
 - **Document Preparation**
   The system was tested on a neuroscience-inspired AI research paper focused on the parallels between biological neural networks and transformer models. The PDF was parsed and split into smaller document chunks for processing. The following papers were included:
-    * **Attention Is All You Need (Vaswani et al., 2017)**
+    * **Attention Is All You Need **
         * Introduces the Transformer architecture and self-attention mechanism.
         * Highlights parallels between attention in neural circuits and self-attention in models.
     * **BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials**

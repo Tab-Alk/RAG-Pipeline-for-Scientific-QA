@@ -10,13 +10,18 @@ The idea for this project stems from my background at the intersection of neuros
 
 ## Methodology
 
-- **Document Preparation**  
-  The system was tested on a neuroscience-inspired AI research paper focused on the parallels between biological neural networks and transformer models. The PDF was parsed and split into smaller document chunks (pages) for processing.
-  paper_files = {
-  "Attention Is All You Need": "attention_is_all_you_need.pdf",
-  "BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials": "bioinspiredllm_mechanics.pdf",
-  "Spiking Neural Networks: A Survey": "spiking_neural_networks_survey.pdf"
-}
+- **Document Preparation**
+  The system was tested on a neuroscience-inspired AI research paper focused on the parallels between biological neural networks and transformer models. The PDF was parsed and split into smaller document chunks for processing. The following papers were included:
+    * **Attention Is All You Need (Vaswani et al., 2017)**
+        * Introduces the Transformer architecture and self-attention mechanism.
+        * Highlights parallels between attention in neural circuits and self-attention in models.
+    * **BioinspiredLLM: Conversational Large Language Model for the Mechanics of Biological and Bio-Inspired Materials**
+        * Demonstrates fine-tuning generative models on biologically inspired design principles.
+        * Uses RAG-like retrieval to ground generated concepts in biological mechanics.
+    * **Spiking Neural Networks: A Survey**
+        * Surveys computational models of spiking neurons and their dynamics.
+        * Provides insights into temporal coding and plasticity in the brain.
+
 
 - **Embedding Generation**  
   Each document chunk was embedded into vector space using a pre-trained sentence embedding model (`sentence-transformers/all-MiniLM-L6-v2`), producing dense semantic representations suitable for retrieval.

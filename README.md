@@ -27,7 +27,7 @@ The idea for this project stems from my background at the intersection of neuros
   Each document chunk was embedded into vector space using a pre-trained sentence embedding model (`sentence-transformers/all-MiniLM-L6-v2`), producing dense semantic representations suitable for retrieval.
 
 - **Vector Indexing**  
-  The resulting embeddings were indexed using FAISS, an efficient vector database that enables fast similarity-based search across the document corpus. The index was saved locally for reuse
+  The resulting embeddings were indexed using FAISS, an efficient vector database that enables fast similarity-based search across the document corpus. The index was saved locally for reuse.
 
 - **Language Model Integration**  
   A local Hugging Face language model (`google/flan-t5-base`) was used to generate conversational answers, conditioned on the top-retrieved document chunks.

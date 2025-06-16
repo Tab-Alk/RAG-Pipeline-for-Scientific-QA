@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project explores how RAG can be used to build an intuitive, conversational system for question answering over academic research papers. The pipeline combines vector-based document retrieval with a local language model, enabling users to ask natural language questions and receive grounded, document-based answers. The goal is to create a flexible and offline-capable framework for synthesizing and interacting with complex material in a more human-centered way.
+This project explores how RAG can be used to build an intuitive, conversational system for question answering over academic research papers. The pipeline combines vector-based document retrieval with a local language model, enabling users to ask natural language questions and receive grounded, document-based answers. 
 
 The idea for this project stems from my background at the intersection of neuroscience and AI. As a data science student with a strong interest in how biological neural networks inspire modern machine learning, I wanted to explore how retrieval-based architectures can support deeper understanding of dense, technical texts. This pipeline was developed as a hands-on experiment in applying RAG techniques to research literature, with a focus on making the interaction process more intuitive and transparent.
 
